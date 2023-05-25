@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Hanken", sans-serif;
+  font-size: 18px;
+}
+.card {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #eaeaf7;
+}
+
+.container1 {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+}
+.result {
+  color: hsl(224, 58%, 77%);
+  font-weight: 550;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+.circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 90px;
+  padding: 20px;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  outline: dashed 0px black;
+  margin-bottom: 20px;
+}
+.title {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 15px;
+  margin: 20px;
+  font-size: 30px;
+}
+.prg {
+  color: hsl(224, 58%, 77%);
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.number1 {
+  font-size: 50px;
+  font-weight: 750;
+  color: hsl(0, 0%, 100%);
+}
+.number2 {
+  font-size: 18px;
+  color: hsl(224, 23%, 55%);
+}
+.container2 {
+  padding: 25px;
+  width: 500px;
+}
+.title2 {
+  margin-bottom: 20px;
+}
+.box {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.box-right {
+  display: flex;
+  margin-left: 10px;
+}
+.n1 {
+  display: flex;
+  margin-right: 10px;
+}
+.h1 {
+  color: hsl(0, 100%, 67%);
+  font-weight: 600;
+  margin-left: 5px;
+}
+.number-box1 {
+  margin-right: 7px;
+  color: hsl(240, 46%, 18%);
+  font-weight: 600;
+}
+.prg-box {
+  color: hsl(224, 23%, 55%);
+}
+.box2 {
+  display: flex;
+  background-color: hsla(39, 100%, 56%, 0.1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.box2-right {
+  display: flex;
+  margin-left: 10px;
+}
+.n2 {
+  display: flex;
+  margin-right: 10px;
+}
+.h2 {
+  color: hsl(39, 100%, 56%);
+  font-weight: 600;
+  margin-left: 5px;
+}
+.number-box2 {
+  margin-right: 7px;
+  color: hsl(240, 46%, 18%);
+  font-weight: 600;
+}
+.box3 {
+  display: flex;
+  background-color: hsla(166, 100%, 37%, 0.1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.box3-right {
+  display: flex;
+  margin-left: 10px;
+}
+.n3 {
+  display: flex;
+  margin-right: 10px;
+}
+.h3 {
+  color: hsl(166, 100%, 37%);
+  font-weight: 600;
+  margin-left: 5px;
+}
+.number-box3 {
+  margin-right: 7px;
+  color: hsl(240, 46%, 18%);
+  font-weight: 600;
+}
+.box4 {
+  display: flex;
+  background-color: hsla(234, 85%, 45%, 0.1);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.box4-right {
+  display: flex;
+  margin-left: 10px;
+}
+.n4 {
+  display: flex;
+  margin-right: 10px;
+}
+.h4 {
+  color: hsl(234, 85%, 45%);
+  font-weight: 600;
+  margin-left: 5px;
+}
+.number-box4 {
+  margin-right: 7px;
+  color: hsl(240, 46%, 18%);
+  font-weight: 600;
+}
+a {
+  background-color: hsl(240, 46%, 25%);
+  color: hsl(0, 0%, 100%);
+  display: block;
+  text-align: center;
+  height: 45px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.attribution {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  font-size: 12px;
+}
+a1 {
+  margin-left: 5px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 760px) {
+  .container1 {
+    width: 100%;
+    padding: 0px;
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .container2 {
+    padding: 0;
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+  }
+}
